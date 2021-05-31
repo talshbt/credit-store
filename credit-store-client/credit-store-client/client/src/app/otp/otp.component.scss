@@ -1,0 +1,36 @@
+@import "../styles/_buttons";
+@import "../styles/_titles";
+
+.mat-icon:hover {
+  opacity: 1 !important;
+  color: #1a1818;
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+mat-label {
+  margin: 10px 0;
+}
+
+.otpLottie {
+  width: 200px;
+  height: 200px;
+}
+.mat-card-header {
+  justify-content: center;
+}
+
+.reset-otp a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.store-otp{
+  margin: 1rem 0;
+}

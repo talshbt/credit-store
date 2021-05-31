@@ -1,0 +1,46 @@
+@import '../../styles/_titles';
+
+
+mdb-carousel-item {
+  height: 60vh;
+}
+
+.lottie {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 2rem;
+  font: bold 25px;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  & > div {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.carousel {
+  &-container {
+    padding: 2.25rem 0;
+  }
+
+  &-title {
+    font-weight: 600;
+    font: bold 20px;
+    text-shadow: $title-shadow;
+    color: #403b4a;
+  }
+
+  &-caption {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,19 @@
+.mat-stepper-vertical {
+  margin-top: 8px;
+}
+
+.mat-form-field {
+  margin-top: 16px;
+}
+::ng-deep .mat-step-header .mat-step-icon-state-edit {
+  background-color: green;
+  color:white;
+}
+
+.finish {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
